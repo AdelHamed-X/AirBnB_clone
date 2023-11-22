@@ -4,8 +4,6 @@
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
-    display: flex;
-    justify-content: right;
 }
 
 .container .filters button {
@@ -16,7 +14,8 @@
     width: 20%;
     border: 0;
     border-radius: 4px;
-    margin: auto 30px auto 0;
+    margin: 11px 30px 11px 0;
+    float: right;
 }
 
 .container .filters button:hover {
@@ -27,17 +26,30 @@
     height: 100%;
     width: 25%;
     border-right: 1px solid #DDDDDD;
+    float: left;
+    text-align: left;
+    margin-left: 30px;
 }
 
 .container .filters .amenities {
     height: 100%;
     width: 25%;
+    float: left;
+    margin-left: 30px;
+    text-align: left;
 }
 
 .container .filters h3 {
+    font-weight: 600;
     margin: 0;
+    padding: 0;
+    margin-top: 17px;
+
 }
 
 .container .filters h4 {
+    font-size: 14px;
+    font-weight: 400;
     margin: 0;
+    padding: 0;
 }
