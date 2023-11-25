@@ -1,0 +1,43 @@
+.places {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.container .places h1 {
+    font-size: 30px;
+    text-align: left;
+    padding: 20px 0 0 20px;
+    margin: 0;
+    flex: 0 1 100%;
+}
+
+.container .places article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: #FF5A5F 1px solid;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.container .places h2 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.container .places .price_by_night {
+    color: #FF5A5F;
+    border: #FF5A5F 4px;
+    border-style: solid;
+    border-radius: 50px;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    direction: flex-end;
+}
